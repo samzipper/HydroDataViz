@@ -17,3 +17,4 @@
 	 - `tmax_c` = daily maximum temperature in degrees Celsius. Obtained from NOAA GHCN-D.
 	 - `tmin_c` = daily minimum temperature in degrees Celsius. Obtained from NOAA GHCN-D.
 	 - `ETo_mm` = daily reference evapotranspiration. Calculated using Hargreaves-Samani approach based on temperature, precipitation, and site characteristics in the [Evapotranspiration package for R](https://cran.r-project.org/package=Evapotranspiration) and then empirically-adjusted based on ASCE reference ET from a nearby [Kansas Mesonet](http://mesonet.k-state.edu/) station.
+ - **Citation:** Zipper S, I Popescu, K Compare, C Zhang, & EC Seybold (2022). Alternative stable states and hydrological regime shifts in a large intermittent river. Environmental Research Letters. https://doi.org/10.1088/1748-9326/ac7539
