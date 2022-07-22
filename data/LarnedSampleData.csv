@@ -1,4 +1,4 @@
-date_ghcn,WaterYear,discharge_cms,stage_masl,hydrologicRegime,alluvialAquifer_masl,alluvialAquifer_source,highPlainsAquifer_masl,highPlainsAquifer_masl,prcp_mm,tmax_c,tmin_c,ETo_mm
+date_ghcn,WaterYear,discharge_cms,stage_masl,hydrologicalRegime,alluvialAquifer_masl,alluvialAquifer_source,highPlainsAquifer_masl,highPlainsAquifer_masl,prcp_mm,tmax_c,tmin_c,ETo_mm
 1998-10-01,1999,1.0052,593.5287,wet,NA,NA,NA,NA,0.8,25.6,12.8,2.65
 1998-10-02,1999,1.3919,593.5701,wet,NA,NA,NA,NA,81.3,12.8,6.7,1.85
 1998-10-03,1999,1.708,593.6098,wet,NA,NA,NA,NA,0,13.3,8.9,1.95
