@@ -8,12 +8,14 @@ p_linear <-
   ggplot(df, aes(x = date_ghcn, y = discharge_cms)) +
   geom_line(color = col.cat.blu) +
   scale_x_date(name = "Date", expand = c(0,0)) +
-  scale_y_continuous(name = "Daily Discharge [cms]") +
-  labs(title = "Arkansas River near Larned KS")
+  scale_y_continuous(name = "Daily Discharge [cms]")
 
 p_log <- 
   ggplot(df, aes(x = date_ghcn, y = discharge_cms)) +
   geom_line(color = col.cat.blu) +
   scale_x_date(name = "Date", expand = c(0,0)) +
-  scale_y_log10(name = "Daily Discharge [cms]") +
-  labs(title = "Arkansas River near Larned KS")
+  scale_y_log10(name = "Daily Discharge [cms]")
+
+(p_linear / p_log) +
+  plot_annotation(title = "Arkansas River near Larned KS")
+  
